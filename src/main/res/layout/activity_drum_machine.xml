@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical">
+        <TableRow>
+        <Button
+            android:id="@+id/kick"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight=".33"
+            android:padding="10dp"
+            android:text="Kick"
+            android:onClick="triggerSound"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/snare"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight=".33"
+            android:padding="10dp"
+            android:text="Snare"
+            android:onClick="triggerSound"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/highHat"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight=".33"
+            android:padding="10dp"
+            android:text="H H"
+            android:onClick="triggerSound"
+            android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/tom1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:padding="10dp"
+                android:text="Tom1"
+                android:onClick="triggerSound"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tom2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="Tom2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/tom3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="Tom3"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/shake"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="shake"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/laugh"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="Laugh"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bam"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="Bam"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/bam2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="Bam2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/weird"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="10dp"
+                android:text="weird"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/wierd2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight=".33"
+                android:onClick="triggerSound"
+                android:padding="0dp"
+                android:text="weird2"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
